@@ -12,3 +12,11 @@ class Animal {
       const miAnimal = new Animal('Peluchin', 6, 'marrón', 3);
       console.log(miAnimal.emitirSonido('¡Guau!'));
 
+///////////////////////////////////////////////////////////
+
+      class Perro extends Animal {
+        constructor (nombre,edad,color,piernas){
+            this.nombre=nombre;
+            
+        }
+      }
